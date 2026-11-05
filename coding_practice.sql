@@ -1,21 +1,21 @@
 -- ====================================================================
--- Daily Coding Practice: SQL Problems & Query Log
+-- Coding Practice: SQL Problems & Query Log
 -- ====================================================================
 -- Author: singarasu
--- Repository: daily-coding-practice
--- Purpose: Daily SQL query practice, database design, analytics, CTEs & window functions
+-- Repository: coding-practice
+-- Purpose: SQL query practice, database design, analytics, CTEs & window functions
 -- ====================================================================
 
 -- --------------------------------------------------------------------
--- Template for Daily Entry:
+-- Template for Practice Entry:
 -- --------------------------------------------------------------------
--- Date: YYYY-MM-DD
+-- Date / Session: Session 01
 -- Platform / Topic: e.g., LeetCode SQL 50 / Window Functions / Aggregations
 -- Problem: Second Highest Salary / Department Top Performers
 -- Difficulty: Easy / Medium / Hard
 -- --------------------------------------------------------------------
 
--- Day 01: Starter Example - Department Highest Salary with Window Functions
+-- Session 01: Starter Example - Department Highest Salary with Window Functions
 /*
 Problem Statement:
 Find employees who have the highest salary in each of the departments.
@@ -52,5 +52,5 @@ FROM RankedSalaries
 WHERE salary_rank = 1;
 
 -- --------------------------------------------------------------------
--- Add your daily queries below:
+-- Add your practice queries below:
 -- --------------------------------------------------------------------
