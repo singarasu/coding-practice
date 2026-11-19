@@ -54,3 +54,50 @@ WHERE salary_rank = 1;
 -- --------------------------------------------------------------------
 -- Add your practice queries below:
 -- --------------------------------------------------------------------
+
+
+-- --------------------------------------------------------------------
+-- Session 02: SQL Basics - SELECT Statement
+-- --------------------------------------------------------------------
+-- Problem:
+-- Retrieve specific columns from the Employees table using SELECT.
+-- --------------------------------------------------------------------
+
+-- 1. Create the Employees table
+CREATE TABLE IF NOT EXISTS Employees (
+    employee_id INT PRIMARY KEY,
+    name VARCHAR(50),
+    department VARCHAR(30),
+    salary INT
+);
+
+-- 2. Insert sample records
+INSERT INTO Employees (employee_id, name, department, salary)
+VALUES
+    (101, 'Arun', 'IT', 25000),
+    (102, 'Priya', 'HR', 30000),
+    (103, 'Kumar', 'Sales', 28000),
+    (104, 'Divya', 'IT', 35000),
+    (105, 'Ravi', 'Finance', 32000);
+
+-- 3. Practice queries
+
+-- Q1. Display all columns from the Employees table.
+SELECT *
+FROM Employees;
+
+-- Q2. Display only the Name column.
+SELECT name
+FROM Employees;
+
+-- Q3. Display Name and Salary columns.
+SELECT name, salary
+FROM Employees;
+
+-- Q4. Display Employee_ID and Department columns.
+SELECT employee_id, department
+FROM Employees;
+
+-- Q5. Display Name, Department and Salary columns.
+SELECT name, department, salary
+FROM Employees;
