@@ -73,3 +73,12 @@ insert into employee value
 (104,'jason','plumber',30000);
 
 select * from employee;
+
+----OUTPUT----
+employee_id,name,department,salary
+101,arthur,cowboy,10000
+102,fraklin,robber,50000
+103,traver,dopeguy,20000
+104,jason,plumber,30000
+
+			
