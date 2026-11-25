@@ -1,5 +1,3 @@
-
-
 CREATE TABLE IF NOT EXISTS Employee (
     id INT PRIMARY KEY,
     name VARCHAR(50),
@@ -58,3 +56,20 @@ FROM Employees;
 
 SELECT name, department, salary
 FROM Employees;
+
+#---DAY 02---
+
+create table employee (
+employee_id int primary key,
+name varchar(50),
+department varchar(50),
+salary int
+);
+
+insert into employee value
+(101,'arthur','cowboy',10000),
+(102,'fraklin','robber',50000),
+(103,'traver','dopeguy',20000),
+(104,'jason','plumber',30000);
+
+select * from employee;
